@@ -9,6 +9,8 @@ body{
 }
 nav{
     font-family: 'Rubik Bubbles', cursive;
+    position: sticky;
+    top: 0;
 }
 a{
     text-decoration: none;
@@ -130,4 +132,11 @@ a{
     grid-area: h;
 }.image9{
     grid-area: i;
+}
+footer{
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-size: 24px;
+
 }
